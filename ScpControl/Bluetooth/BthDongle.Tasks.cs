@@ -668,6 +668,12 @@ namespace ScpControl.Bluetooth
                                             case 8:
                                                 Log.DebugFormat("HCI_Version: Bluetooth Core Specification 4.2");
                                                 break;
+                                            case 9:
+                                                Log.DebugFormat("HCI_Version: Bluetooth Core Specification 5.0");
+                                                break;  
+                                            case 10:
+                                                Log.DebugFormat("HCI_Version: Bluetooth Core Specification 5.1");
+                                                break;                                                                                              
                                             default:
                                                 // this should not happen
                                                 Log.ErrorFormat("HCI_Version: Specification unknown");
@@ -705,7 +711,13 @@ namespace ScpControl.Bluetooth
                                                 break;
                                             case 8:
                                                 Log.DebugFormat("LMP_Version: Bluetooth Core Specification 4.2");
-                                                break;
+                                                break;                                             
+                                            case 9:
+                                                Log.DebugFormat("LMP_Version: Bluetooth Core Specification 5.0");
+                                                break;  
+                                            case 10:
+                                                Log.DebugFormat("LMP_Version: Bluetooth Core Specification 5.1");
+                                                break;                                              
                                             default:
                                                 // this should not happen
                                                 Log.ErrorFormat("LMP_Version: Specification unknown");
